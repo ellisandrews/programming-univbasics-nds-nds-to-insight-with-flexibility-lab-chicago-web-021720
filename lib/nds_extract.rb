@@ -78,9 +78,6 @@ def gross_per_studio(collection)
   while i < collection.length do 
     studio = collection[i][:studio]
     gross = collection[i][:worldwide_gross]
-    puts studio
-    puts gross
-    puts ""
     
     if not new_hash[:studio]
       new_hash[:studio] = 0

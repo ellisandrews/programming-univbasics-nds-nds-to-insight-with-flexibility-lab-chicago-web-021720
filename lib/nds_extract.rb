@@ -86,7 +86,7 @@ def gross_per_studio(collection)
       new_hash[:studio] = 0
     end
     
-    new_hash[:studio] += gross
+    new_hash[studio] += gross
     
     i += 1
   end

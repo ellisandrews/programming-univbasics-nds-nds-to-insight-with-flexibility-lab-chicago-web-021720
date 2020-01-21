@@ -79,7 +79,7 @@ def gross_per_studio(collection)
     studio = collection[i][:studio]
     gross = collection[i][:worldwide_gross]
     
-    if not new_hash[:studio]
+    if not new_hash[studio]
       new_hash[studio] = 0
     end
     
